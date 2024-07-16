@@ -1,0 +1,97 @@
+.Contact{
+    height:45rem;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  
+  .Contactsection{
+    height:30rem;
+    width:70vw;
+  }
+  .heading{
+    font-size:1.2rem;
+    text-align:center;
+  }
+  .heading span{
+    color:#4db5ff;
+  }
+  .container .contact-container{
+    width:60%;
+    display:grid;
+    grid-template-column:30% 58%;
+    gap:12%;
+  }
+  .contact-options{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:1.2rem;
+  }
+  .contact-option{
+    margin-top:1.2rem;
+    background:#4db5ff;
+    padding:1.2rem;
+    border-radius:1rem;
+    text-align:center;
+    border:1px solid transparent;
+    transition:0.5s
+  }
+  .contact-option:hover{
+  
+    border-color:#000;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+
+  }
+  .contact-option-icon{
+    font-size:1.9rem;
+    margin-bottom:0.5rem;
+    
+  }
+  .contact-option a{
+    margin-top:0.7rem;
+    display:inline-block;
+    font-size:1.4rem;
+  }
+.contact-option h4{
+  font-weight:400;
+  font-size:1.3rem;
+}
+.contact-option h5{
+  color:#000;
+  font-size:1.5rem;
+  font-weight:400;
+}
+form span{
+  font-size:1.5rem;
+}
+form{
+  display:flex;
+  flex-direction:column;
+  gap:0.9rem;
+  margin-top:0.3rem;
+}
+input,textarea{
+  width:100%;
+  padding:1.5rem;
+  border-radius:0.7rem;
+  background:#fff;
+  border:2px solid #000;
+  resize:none;
+  color:#000;
+  font-size:1.5rem;
+}
+@media screen and(max-width:1024px){
+  .container .contact-container{
+    grid-template-columns:1fr;
+    gap:2rem;
+  }
+}
+@media screen and(max-width:600px) {
+  .container .contact-container{
+    width:90%;
+  }
+}

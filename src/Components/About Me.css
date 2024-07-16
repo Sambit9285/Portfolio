@@ -1,0 +1,43 @@
+.about{
+  height:45rem;
+  padding:4rem 0 2rem 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+
+.aboutsection{
+  height:30rem;
+  width:70vw;
+}
+.heading{
+  font-size:1.2rem;
+  text-align:center;
+}
+.heading span{
+  color:#4db5ff;
+}
+.aboutpara{
+  margin-top:5rem;
+  text-align:center;
+}
+.aboutpara p{
+  font-size:1.7rem;
+  padding:20px;
+  font-weight:500;
+}
+.aboutpara h2{
+  color:#4db5ff;
+}
+.cv{
+  margin-top:4rem;
+ text-align:center;
+}
+@media screen(max-width:600px){
+  .about{
+    flex-direction:column;
+    
+  }
+}
